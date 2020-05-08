@@ -25,3 +25,5 @@ The params_rsd.inp and params_real.inp files have the following entries:
 - Omega_m
 - Omega_l
 - scale factor = 1/(1+redshift)
+
+Questions, bugs, queries ---> ginevra.favole@port.ac.uk
