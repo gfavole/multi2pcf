@@ -8,12 +8,14 @@ A real- and a redshift-space (rsd) code version are provided, with corresponding
 1) Create an outputs folder in the same directory.
 
 2) Compile the codes as:
->real-space: *ifort -fopenmp xilreal.f90 -o xilreal*
->redshift-space: *ifort -fopenmp xilrsd.f90 -o xilrsd*
+>real: *ifort -fopenmp xilreal.f90 -o xilreal*
+
+>rsd: *ifort -fopenmp xilrsd.f90 -o xilrsd*
 
 3) Launch the slurm scripts using:
->real-space: *sbatch xilrsd.sh*
->redshift-space: *sbatch xilreal.sh*
+>real: *sbatch xilrsd.sh*
+
+>rsd: *sbatch xilreal.sh*
 
 The params_rsd.inp and params_real.inp files have the following entries:
 - input mock catalogue
