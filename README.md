@@ -1,5 +1,6 @@
 # multi2pcf
-Code to compute the two-point correlation function multipoles of different DESI mocks.
+Code to compute the two-point correlation function multipoles (monopole, quadrupole and hexadecapole) of different DESI mocks. 
+The code is parallelised in OMP and optimised to be run on NERSC using the jobfork MPI wrapper. 
 
 # UNIT 2Gpc mock
 A real- and a redshift-space (rsd) code version are provided, with corresponding slurm scripts and input parameter files.
