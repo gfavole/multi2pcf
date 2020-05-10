@@ -23,7 +23,7 @@ The params_rsd.inp and params_real.inp files have the following entries:
 - input mock catalogue
 - output DD counts: *#s(Mpc/h), μ, DD*
 - output ξ(s, μ): *#s(Mpc/h), μ, ξ(s,μ)*
-- output ξ<sub>l</sub>(s, μ) (multipoles 2PCF): *#s(Mpc/h), ξ<sub>0</sub>(s,μ), ξ<sub>2</sub>(s,μ), ξ<sub>4</sub>(s,μ)*
+- output ξ<sub>l</sub>(s) (multipoles 2PCF): *#s(Mpc/h), ξ<sub>0</sub>(s), ξ<sub>2</sub>(s), ξ<sub>4</sub>(s)*
 - Lbox
 - redshift
 - Omega_m
