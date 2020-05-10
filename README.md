@@ -21,9 +21,9 @@ A real- and a redshift-space (rsd) code versions are provided, with correspondin
 
 The params_rsd.inp and params_real.inp files have the following entries:
 - input mock catalogue
-- output DD counts
-- output xi(s, μ)
-- output xi_l (multipoles 2PCF)
+- output DD counts: #s(Mpc/h)  μ   DD
+- output ξ(s, μ): #s(Mpc/h)  μ   ξ(s,μ) 
+- output ξ_l (multipoles 2PCF): #s(Mpc/h)  ξ_0(s,μ)  ξ_2(s,μ)  ξ_4(s,μ)  
 - Lbox
 - redshift
 - Omega_m
