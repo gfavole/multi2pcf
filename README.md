@@ -2,7 +2,7 @@
 Code to compute the two-point correlation function multipoles (monopole, quadrupole and hexadecapole) of different DESI mock realisations. 
 The code is parallelised in OMP and optimised to be run on NERSC using the MPI wrapper [jobfork](https://github.com/cheng-zhao/jobfork). 
 
-# UNIT 1, 2, 3 Gpc mocks - 1 realisation
+# UNIT 1, 2, 3 Gpc mocks - 1 box
 A real- and a redshift-space (rsd) code versions are provided, with corresponding slurm scripts and input parameter files. The multipoles are computed with 200 linear bins in *0 < s < 200 Mpc/h* and 120 linear bins in *0 < μ < 1*. 
 
 1) Create an *outputs* folder in the same directory. Here all the outputs will be stored.
@@ -31,7 +31,7 @@ The params_rsd.inp and params_real.inp files have the following entries:
 - scale factor = 1/(1+redshift)
 
 
-# EZmocks 1, 2, 3 Gpc mocks - 1000 realisations 
+# EZmocks 1, 2, 3 Gpc mocks - 1000 boxes 
 A real- and a redshift-space (rsd) code versions are provided, with corresponding slurm scripts and input parameter files optimised using the  [jobfork](https://github.com/cheng-zhao/jobfork) wrapper.
 
 1) Create a *multipoles* folder in the same directory. Here all the outputs will be stored.
