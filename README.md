@@ -3,7 +3,7 @@ Code to compute the two-point correlation function multipoles (monopole, quadrup
 The code is parallelised in OMP and optimised to be run on NERSC using the MPI wrapper [jobfork](https://github.com/cheng-zhao/jobfork). 
 
 # UNIT 2Gpc mock
-A real- and a redshift-space (rsd) code version are provided, with corresponding slurm scripts and input parameter files.
+A real- and a redshift-space (rsd) code versions are provided, with corresponding slurm scripts and input parameter files.
 
 1) Create an outputs folder in the same directory.
 
