@@ -110,7 +110,7 @@ Program  main
 
   !$OMP DO
   DO i = 1, Ngalbin
-     if (mod(i,100000)==0) write(*,*) 'step =', i
+     if (mod(i,1000000)==0) write(*,*) 'step =', i
      DO j = i+1, Ngalbin
         dx = ABS(x(i) - x(j))
         dy = ABS(y(i) - y(j))
