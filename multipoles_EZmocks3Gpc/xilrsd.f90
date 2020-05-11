@@ -11,7 +11,6 @@
 
 Program  main
   implicit none
-  CHARACTER(150), PARAMETER   :: params_inp='params_rsd/params_rsd.inp'
   CHARACTER*250  CATALOG,DD,XI2D,XIL 
   CHARACTER params_rsd*80
   !--------------------------------------------------------------------------------------------
