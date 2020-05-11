@@ -11,7 +11,6 @@
 
 Program  main
   implicit none
-  CHARACTER(150), PARAMETER   :: params_inp='params_real/params_real.inp'
   CHARACTER*250  CATALOG,DD,XI2D,XIL 
   CHARACTER params_real*80
   !--------------------------------------------------------------------------------------------
